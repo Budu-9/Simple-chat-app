@@ -1,4 +1,4 @@
-const socket = io('ws://localhost:4000')
+const socket = io('https://simplechat-bg4h.onrender.com/')
 
 const activity = document.querySelector('.activity')
 const msgInput = document.querySelector('input')
